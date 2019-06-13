@@ -1,0 +1,49 @@
+.Pokemon-description {
+  background-color: rgba(150, 195, 150);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Pokemon-description .description-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+}
+
+
+.Pokemon-description .description-header img {
+  width: 40px;
+  height: auto;
+}
+
+.Pokemon-description h1 {
+  text-align: center; 
+}
+
+.Pokemon-description .description {
+  background-color: #fff;
+  flex: 1;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+}
+
+.Pokemon-description .description .information {
+  padding: 10px;
+  padding-top: 20px;
+}
+  
+.Pokemon-description .description .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Pokemon-description .description .text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+}
+

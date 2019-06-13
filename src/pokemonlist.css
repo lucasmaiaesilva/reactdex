@@ -1,0 +1,46 @@
+.Pokemon-list {
+  background-color: rgba(178, 36, 24);
+  min-height: 100vh;
+}
+
+
+.Pokemon-list h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.Pokemon-list h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.Pokemon-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Pokemon-list ul li {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  border-radius: 5px;
+}
+
+.Pokemon-list ul li .name .type span {
+  font-weight: 300;
+  margin-right: 8px;
+  color: #333;
+  margin-top: 5px;
+  font-size: 14px;
+}
