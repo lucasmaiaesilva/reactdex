@@ -1,6 +1,5 @@
 import React from 'react';
 import PokemonList from './PokemonList';
-import Loading from './Loading';
 
 function App() {
   return (

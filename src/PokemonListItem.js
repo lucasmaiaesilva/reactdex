@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from  'react-router-dom';
+import pokeball from './pokeball.svg'; 
 
 const PokemonListItem = ({ linkUrl, name }) => (
   <Link to={linkUrl}>
@@ -11,7 +12,7 @@ const PokemonListItem = ({ linkUrl, name }) => (
           <span>Poison</span>
         </div>
       </div>
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" />
+      <img src={pokeball} alt="pokeball" />
     </li>
   </Link>
 )

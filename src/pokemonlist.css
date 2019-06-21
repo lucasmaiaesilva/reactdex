@@ -24,6 +24,14 @@
 .Pokemon-list ul {
   list-style-type: none;
   padding: 0;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.Pokemon-list img {
+  height: 40px;
+  padding: 10px;
+  width: auto;
 }
 
 .Pokemon-list ul li {
@@ -43,4 +51,9 @@
   color: #333;
   margin-top: 5px;
   font-size: 14px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
 }
